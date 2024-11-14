@@ -3,20 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="EverSats - Treinamento e Consultoria em Compra e Venda Segura de Bitcoin, Auto-Custódia, Sucessão Patrimonial e Otimização Fiscal.">
+    <meta name="description" content="EverSats - Especialistas em segurança e consultoria em Bitcoin. Oferecemos treinamento em compra segura de Bitcoin, auto-custódia, sucessão patrimonial e otimização fiscal para investidores de todos os níveis.">
     <title>EverSats - Segurança e Consultoria em Bitcoin</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <!-- Adicione aqui seu favicon -->
     <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
     <!-- Header Section -->
     <header>
-        <nav>
+        <nav aria-label="Menu principal">
             <div class="logo">
-                <a href="#">EverSats</a>
+                <a href="#" aria-label="Página inicial da EverSats">EverSats</a>
             </div>
             <ul class="nav-links">
                 <li><a href="#sobre">Sobre</a></li>
@@ -46,7 +46,7 @@
             <div class="services-grid">
                 <div class="service-card">
                     <h3>Treinamento em Bitcoin</h3>
-                    <p>Ensinamos nossos clientes a comprar, vender e armazenar Bitcoin de forma segura. Aulas práticas e teóricas para iniciantes e investidores avançados.</p>
+                    <p>Ensine seus clientes a comprar, vender e armazenar Bitcoin de forma segura. Aulas práticas e teóricas para iniciantes e investidores avançados.</p>
                 </div>
                 <div class="service-card">
                     <h3>Consultoria em Auto-Custódia</h3>
@@ -69,10 +69,10 @@
         <div class="container">
             <h2>Entre em Contato</h2>
             <p>Está pronto para proteger seu patrimônio? Entre em contato conosco e saiba como podemos ajudar a otimizar seus investimentos em Bitcoin.</p>
-            <form action="submit_form.php" method="POST">
-                <input type="text" name="nome" placeholder="Seu Nome" required>
-                <input type="email" name="email" placeholder="Seu E-mail" required>
-                <textarea name="mensagem" placeholder="Sua Mensagem" required></textarea>
+            <form action="submit_form.php" method="POST" onsubmit="return validateForm()">
+                <input type="text" name="nome" placeholder="Seu Nome" required aria-label="Seu Nome">
+                <input type="email" name="email" placeholder="Seu E-mail" required aria-label="Seu E-mail">
+                <textarea name="mensagem" placeholder="Sua Mensagem" required aria-label="Sua Mensagem"></textarea>
                 <button type="submit" class="cta-button">Enviar Mensagem</button>
             </form>
         </div>
@@ -83,10 +83,26 @@
         <div class="container">
             <p>&copy; 2024 EverSats. Todos os direitos reservados.</p>
             <div class="social-links">
-                <a href="#">Facebook</a> | <a href="#">Twitter</a> | <a href="#">LinkedIn</a>
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
             </div>
         </div>
     </footer>
+
+    <!-- JavaScript para validação do formulário -->
+    <script>
+        function validateForm() {
+            const nome = document.forms[0]["nome"].value;
+            const email = document.forms[0]["email"].value;
+            const mensagem = document.forms[0]["mensagem"].value;
+            if (nome === "" || email === "" || mensagem === "") {
+                alert("Por favor, preencha todos os campos.");
+                return false;
+            }
+            return true;
+        }
+    </script>
 
 </body>
 </html>
