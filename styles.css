@@ -4,6 +4,7 @@
     --secondary-color: #f97316; /* Laranja */
     --bg-color: #f3f4f6; /* Cinza claro */
     --text-color: #333;
+    --text-colorlista: #ffffff; 
     --cta-color: #f97316; /* Laranja */
 }
 
@@ -17,7 +18,7 @@ body {
 
 /* Header */
 header {
-    background-color: #1e3a8a;
+    background-color: var(--primary-color);
     padding: 20px 0;
     text-align: center;
 }
@@ -29,7 +30,7 @@ header {
 }
 
 .nav-links li {
-  color: #ffffff; /* Cor do texto (branco) */
+  color:  var(--text-colorlista); /* Cor do texto (branco) */
   text-align: center; /* Centraliza o texto */
   font-weight: bold; /* Torna o texto em negrito */
 }
