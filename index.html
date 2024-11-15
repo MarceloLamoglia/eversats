@@ -15,7 +15,6 @@
     <header>
         <nav>
             <div class="logo">
-                <!-- Adicionando o logotipo -->
                 <a href="#"><img src="eversats-logo.png" alt="EverSats Logo" style="height: 50px;"></a>
             </div>
             <ul class="nav-links">
@@ -69,7 +68,8 @@
         <div class="container">
             <h2>Entre em Contato</h2>
             <p>Está pronto para proteger seu patrimônio? Entre em contato conosco e saiba como podemos ajudar a otimizar seus investimentos em Bitcoin.</p>
-            <form action="submit_form.php" method="POST">
+            <!-- Formulário integrado com Formspree -->
+            <form action="https://formspree.io/f/mkgnblzw" method="POST">
                 <input type="text" name="nome" placeholder="Seu Nome" required>
                 <input type="email" name="email" placeholder="Seu E-mail" required>
                 <textarea name="mensagem" placeholder="Sua Mensagem" required></textarea>
