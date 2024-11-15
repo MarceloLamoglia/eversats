@@ -23,12 +23,17 @@ header {
 }
 
 .nav-links {
-    list-style-type: none;
-    text-align: center;
-    padding: 50px 20px;
-    color: #ffffff;
-    font-size: 1.2em;
+  list-style-type: none; /* Remove os marcadores */
+  padding: 0; /* Remove o espaçamento interno */
+  margin: 0; /* Remove a margem */
 }
+
+.nav-links li {
+  color: white; /* Cor do texto (branco) */
+  text-align: center; /* Centraliza o texto */
+  font-weight: bold; /* Torna o texto em negrito */
+}
+
 .hero {
     text-align: center;
     padding: 50px 20px;
