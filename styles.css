@@ -23,24 +23,11 @@ header {
 }
 
 .nav-links {
-    display: block;          /* Para garantir que o link seja um bloco */
-    text-align: center;      /* Centraliza o texto dentro do link */
-    color: #ffffff !important;            /* Cor do texto: branca */
-    font-weight: bold;       /* Texto em negrito */
-    font-size: 20px;         /* Tamanho da fonte: 20px */
+    text-align: center;
+    padding: 50px 20px;
+    color: #ffffff;
+    font-size: 1.2em;
 }
-.nav-links:visited {
-    color: #FFFFFF !important;          /* Garante que a cor do link visitado seja branca */
-}
-
-.nav-links:hover {
-    color: #FFFFFF !important;          /* Garante que a cor do link ao passar o mouse seja branca */
-}
-
-.nav-links:active {
-    color: #FFFFFF !important;          /* Garante que a cor do link ao ser clicado seja branca */
-}
-
 .hero {
     text-align: center;
     padding: 50px 20px;
