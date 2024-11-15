@@ -26,7 +26,7 @@ header {
 .nav-links {
     display: block;          /* Para garantir que o link seja um bloco */
     text-align: center;      /* Centraliza o texto dentro do link */
-    color: white;            /* Cor do texto: branca */
+    color: #ffffff;            /* Cor do texto: branca */
     font-weight: bold;       /* Texto em negrito */
     font-size: 20px;         /* Tamanho da fonte: 20px */
 }
