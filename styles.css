@@ -23,10 +23,12 @@ header {
     text-align: center;
 }
 
-.nav-links a {
-    color: #fff;
-    padding: 0 15px;
-    text-decoration: none;
+.nav-links {
+    list-style: none; /* Remove os marcadores */
+    display: flex; /* Alinha os links horizontalmente */
+    gap: 20px; /* Espaço entre os links */
+    margin: 0; /* Remove margens */
+    padding: 0; /* Remove preenchimento */
 }
 
 .hero {
