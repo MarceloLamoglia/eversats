@@ -40,6 +40,13 @@ header {
   text-decoration: none; /* Remove o sublinhado dos links */
 }
 
+.nav-links a:link,
+.nav-links a:visited,
+.nav-links a:hover,
+.nav-links a:active {
+  color: var(--text-colorlista);
+}
+
 .hero {
     text-align: center;
     padding: 50px 20px;
