@@ -29,7 +29,7 @@ header {
 }
 
 .nav-links li {
-  color: white; /* Cor do texto (branco) */
+  color: #ffffff; /* Cor do texto (branco) */
   text-align: center; /* Centraliza o texto */
   font-weight: bold; /* Torna o texto em negrito */
 }
