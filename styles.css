@@ -24,20 +24,20 @@ header {
 
 .nav-links {
     text-align: center;      /* Centraliza o texto dentro do link */
-    color: #ffffff;            /* Cor do texto: branca */
+    color: #ffffff !important;            /* Cor do texto: branca */
     font-weight: bold;       /* Texto em negrito */
     font-size: 20px;         /* Tamanho da fonte: 20px */
 }
 .nav-links:visited {
-    color: #FFFFFF;          /* Garante que a cor do link visitado seja branca */
+    color: #FFFFFF !important;          /* Garante que a cor do link visitado seja branca */
 }
 
 .nav-links:hover {
-    color: #FFFFFF;          /* Garante que a cor do link ao passar o mouse seja branca */
+    color: #FFFFFF !important;          /* Garante que a cor do link ao passar o mouse seja branca */
 }
 
 .nav-links:active {
-    color: #FFFFFF;          /* Garante que a cor do link ao ser clicado seja branca */
+    color: #FFFFFF !important;          /* Garante que a cor do link ao ser clicado seja branca */
 }
 
 .hero {
