@@ -23,6 +23,7 @@ header {
 }
 
 .nav-links {
+    list-style-type: none;
     text-align: center;
     padding: 50px 20px;
     color: #ffffff;
