@@ -35,6 +35,11 @@ header {
   font-weight: bold; /* Torna o texto em negrito */
 }
 
+.nav-links a {
+  color: var(--text-colorlista); /* Garante que os links tenham cor branca */
+  text-decoration: none; /* Remove o sublinhado dos links */
+}
+
 .hero {
     text-align: center;
     padding: 50px 20px;
