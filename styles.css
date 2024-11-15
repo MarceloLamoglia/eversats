@@ -24,11 +24,11 @@ header {
 }
 
 .nav-links {
-    list-style: none; /* Remove os marcadores */
-    display: flex; /* Alinha os links horizontalmente */
-    gap: 20px; /* Espaço entre os links */
-    margin: 0; /* Remove margens */
-    padding: 0; /* Remove preenchimento */
+    display: block;          /* Para garantir que o link seja um bloco */
+    text-align: center;      /* Centraliza o texto dentro do link */
+    color: white;            /* Cor do texto: branca */
+    font-weight: bold;       /* Texto em negrito */
+    font-size: 20px;         /* Tamanho da fonte: 20px */
 }
 
 .hero {
