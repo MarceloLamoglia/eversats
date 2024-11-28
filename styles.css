@@ -95,6 +95,8 @@ header {
 /* Services */
 .services-grid {
     display: grid;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 20px;
 }
