@@ -1,0 +1,9 @@
+.DS_Store
+Thumbs.db
+*.m3u
+*.log
+.env
+*.env
+_site/
+node_modules/
+.vscode/
