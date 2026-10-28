@@ -1,200 +1,55 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EverSats | Consultoria e Treinamento em Auto-Custódia de Bitcoin</title>
-    <meta name="description" content="Aprenda a guardar seu Bitcoin com segurança e garanta que sua família consiga acessá-lo. Treinamento, auto-custódia e sucessão patrimonial. Fale com a EverSats.">
-    <link rel="canonical" href="https://eversats.com/">
-
-    <!-- Open Graph / redes sociais -->
-    <meta property="og:type" content="website">
-    <meta property="og:locale" content="pt_BR">
-    <meta property="og:site_name" content="EverSats">
-    <meta property="og:title" content="EverSats | Auto-Custódia e Sucessão de Bitcoin">
-    <meta property="og:description" content="Treinamento e consultoria para guardar seu Bitcoin com segurança e transmiti-lo aos herdeiros.">
-    <meta property="og:url" content="https://eversats.com/">
-    <meta property="og:image" content="https://eversats.com/og-image.jpg">
-    <meta name="twitter:card" content="summary_large_image">
-
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LRYE00RB50"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-LRYE00RB50');
-    </script>
-
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="icon" href="eversats-logo.png" type="image/png">
-
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "name": "EverSats",
-        "url": "https://eversats.com",
-        "description": "Treinamento e consultoria em auto-custódia e sucessão patrimonial de Bitcoin.",
-        "logo": "https://eversats.com/eversats-logo.png",
-        "areaServed": "BR",
-        "inLanguage": "pt-BR",
-        "sameAs": [
-            "https://www.instagram.com/eversats",
-            "https://www.linkedin.com/company/eversats"
-        ]
-    }
-    </script>
-
-    <style>
-        .aviso-seguranca { font-size: .9rem; padding: .6rem .8rem; border-left: 4px solid #f7931a; background: rgba(247,147,26,.12); text-align: left; }
-        .consentimento { font-size: .9rem; display: flex; gap: .5rem; align-items: flex-start; text-align: left; }
-        .consentimento input { width: auto; margin-top: .25rem; }
-        .contato-alt { margin-top: 1rem; }
-        #form-status { min-height: 1.5em; font-weight: 700; }
-        .aviso-legal { font-size: .85rem; opacity: .8; }
-        .whats-float { position: fixed; right: 16px; bottom: 16px; z-index: 50; background: #25d366; color: #000;
-            font: 700 15px Roboto, system-ui, sans-serif; padding: 12px 18px; border-radius: 999px;
-            text-decoration: none; box-shadow: 0 2px 8px rgba(0,0,0,.3); }
-        .whats-float:hover { filter: brightness(1.08); }
-    </style>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EverSats | Consultoria e Treinamento em Auto-Custódia de Bitcoin</title>
+<meta name="description" content="Guarde seu Bitcoin com segurança e garanta que sua família consiga acessá-lo. Treinamento, auto-custódia e sucessão patrimonial.">
+<link rel="canonical" href="https://eversats.com/">
+<meta property="og:type" content="website"><meta property="og:locale" content="pt_BR"><meta property="og:site_name" content="EverSats">
+<meta property="og:title" content="EverSats | Consultoria e Treinamento em Auto-Custódia de Bitcoin"><meta property="og:description" content="Guarde seu Bitcoin com segurança e garanta que sua família consiga acessá-lo. Treinamento, auto-custódia e sucessão patrimonial.">
+<meta property="og:url" content="https://eversats.com/"><meta property="og:image" content="https://eversats.com/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="logo-icon.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LRYE00RB50"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-LRYE00RB50');</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfessionalService","name":"EverSats","url":"https://eversats.com","logo":"https://eversats.com/eversats-logo.png","description":"Treinamento e consultoria em auto-custódia e sucessão patrimonial de Bitcoin.","areaServed":"BR","inLanguage":"pt-BR"}</script>
 </head>
 <body>
-    <!-- Header Section -->
-    <header>
-        <nav>
-            <div class="logo">
-                <a href="/"><img src="eversats-logo.png" alt="EverSats - consultoria em auto-custódia de Bitcoin" style="height: 300px;"></a>
-            </div>
-            <ul class="nav-links">
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#servicos">Serviços</a></li>
-                <li><a href="#contato">Contato</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="faq.html">FAQ</a></li>
-            </ul>
-        </nav>
-        <div class="hero">
-            <h1>Soberania Patrimonial com Bitcoin</h1>
-            <p>Consultoria especializada em auto-custódia, sucessão patrimonial e, em breve, orientação fiscal com Bitcoin.</p>
-            <a href="#contato" class="cta-button">Fale Conosco</a>
-        </div>
-    </header>
-
-    <!-- About Section -->
-    <section id="sobre" class="section-padding">
-        <div class="container">
-            <h2>Quem Somos</h2>
-            <p>A EverSats é uma empresa dedicada a oferecer educação e consultoria especializada para aqueles que desejam preservar e ter soberania total sobre seu patrimônio com o Bitcoin. Nossa missão é proporcionar treinamento de alta qualidade e consultoria especializada, ajudando indivíduos e empresas a adotarem práticas de auto-custódia e planejamento sucessório e, em breve, orientação fiscal, para garantir o gerenciamento seguro de seus ativos digitais.</p>
-        </div>
-    </section>
-
-    <!-- Services Section -->
-    <section id="servicos" class="section-padding bg-light">
-        <div class="container">
-            <h2>Nossos Serviços</h2>
-            <div class="services-grid">
-                <div class="service-card">
-                    <img src="thumb_treinamento.jpg" alt="Treinamento em Bitcoin" width="150" height="150" loading="lazy">
-                    <h3>Treinamento em Bitcoin</h3>
-                    <p>Entenda como funciona o Bitcoin. Aprenda a transacionar Bitcoin de forma fácil e segura. Aulas práticas e teóricas.</p>
-                    <a href="treinamento.html" class="btn">Saiba Mais</a>
-                </div>
-                <div class="service-card">
-                    <img src="thumb_consultoria.jpg" alt="Consultoria em Auto-Custódia" width="150" height="150" loading="lazy">
-                    <h3>Consultoria em Auto-Custódia</h3>
-                    <p>Orientação completa para proteger seus ativos digitais com carteiras de hardware, multisig e outras soluções de auto-custódia.</p>
-                    <a href="consultoria.html" class="btn">Saiba Mais</a>
-                </div>
-                <div class="service-card">
-                    <img src="thumb_sucessao.jpg" alt="Plano de Sucessão Patrimonial" width="150" height="150" loading="lazy">
-                    <h3>Sucessão Patrimonial</h3>
-                    <p>Consultoria em planejamento sucessório de Bitcoin, garantindo que seus ativos digitais sejam transmitidos para futuras gerações com segurança e soberania.</p>
-                    <a href="plano-sucessao.html" class="btn">Saiba Mais</a>
-                </div>
-                <div class="service-card">
-                    <img src="thumb_fiscal.jpg" alt="Orientação Fiscal" width="150" height="150" loading="lazy">
-                    <h3>Orientação Fiscal</h3>
-                    <p>Organização e declaração correta dos seus Bitcoin (em breve).</p>
-                    <a href="https://wa.me/5535999374642?text=Quero%20ser%20avisado%20sobre%20o%20servi%C3%A7o%20fiscal" class="btn" target="_blank" rel="noopener">Avise-me quando lançar</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contato" class="section-padding">
-        <div class="container">
-            <h2>Entre em Contato</h2>
-            <p>Está pronto para ser soberano sobre seu patrimônio? Conte rapidamente o que você precisa e saiba como podemos ajudar a gerenciar corretamente seus ativos digitais.</p>
-
-            <form id="form-contato" action="https://formspree.io/f/mkgnblzw" method="POST">
-                <input type="text" name="nome" placeholder="Seu nome" aria-label="Seu nome" autocomplete="name" required>
-                <input type="email" name="email" placeholder="Seu e-mail" aria-label="Seu e-mail" autocomplete="email" required>
-                <input type="tel" name="telefone" placeholder="Telefone / WhatsApp (opcional)" aria-label="Telefone ou WhatsApp (opcional)" autocomplete="tel">
-                <textarea name="mensagem" placeholder="Como podemos ajudar?" aria-label="Sua mensagem" required></textarea>
-
-                <p class="aviso-seguranca"><strong>Atenção:</strong> nunca envie sua seed phrase, chaves privadas ou senhas. A EverSats jamais pede essas informações.</p>
-
-                <label class="consentimento">
-                    <input type="checkbox" name="consentimento" required>
-                    <span>Concordo com o uso dos meus dados para retorno deste contato, conforme a <a href="privacidade.html">Política de Privacidade</a>.</span>
-                </label>
-
-                <!-- antispam: deve permanecer vazio -->
-                <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
-                <input type="hidden" name="_subject" value="Novo contato pelo site EverSats">
-
-                <button type="submit" class="cta-button">Enviar Mensagem</button>
-                <p id="form-status" role="status" aria-live="polite"></p>
-            </form>
-
-            <p class="contato-alt">Prefere falar direto?
-                <a href="https://wa.me/5535999374642?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20EverSats" target="_blank" rel="noopener">Chame no WhatsApp</a>.
-            </p>
-        </div>
-    </section>
-
-    <!-- Footer Section -->
-    <footer>
-        <div class="container">
-            <p>&copy; <span id="ano">2026</span> EverSats. Todos os direitos reservados.</p>
-            <p class="aviso-legal">Conteúdo educacional. Não constitui recomendação de investimento, aconselhamento financeiro, jurídico ou tributário.</p>
-            <p><a href="privacidade.html">Política de Privacidade</a></p>
-        </div>
-    </footer>
-
-    <a class="whats-float" href="https://wa.me/5535999374642?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20EverSats" target="_blank" rel="noopener" aria-label="Falar pelo WhatsApp">WhatsApp</a>
-
-    <script>
-        document.getElementById('ano').textContent = new Date().getFullYear();
-
-        (function () {
-            var form = document.getElementById('form-contato');
-            var status = document.getElementById('form-status');
-            form.addEventListener('submit', function (e) {
-                e.preventDefault();
-                status.textContent = 'Enviando...';
-                fetch(form.action, {
-                    method: 'POST',
-                    body: new FormData(form),
-                    headers: { 'Accept': 'application/json' }
-                }).then(function (r) {
-                    if (r.ok) {
-                        form.reset();
-                        status.textContent = 'Mensagem enviada! Responderemos em breve.';
-                        if (typeof gtag === 'function') gtag('event', 'generate_lead', { method: 'formulario' });
-                    } else {
-                        status.textContent = 'Não foi possível enviar. Tente pelo WhatsApp.';
-                    }
-                }).catch(function () {
-                    status.textContent = 'Erro de conexão. Tente pelo WhatsApp.';
-                });
-            });
-        })();
-    </script>
-</body>
-</html>
+<header class="topbar"><div class="container">
+<a class="brand" href="/"><img src="logo-icon.png" alt="" width="40" height="40"><span>Ever<b>Sats</b></span></a>
+<ul class="menu"><li><a href="/#servicos">Serviços</a></li><li><a href="/#como-funciona">Como funciona</a></li><li><a href="/#sobre">Sobre</a></li><li><a href="blog.html">Blog</a></li><li><a href="faq.html">FAQ</a></li>
+<li><a class="btn" href="https://wa.me/5535999374642?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20EverSats" target="_blank" rel="noopener">Agendar conversa</a></li></ul></div></header>
+<section class="hero"><div class="container hero-grid"><div>
+<span class="eyebrow">Consultoria e treinamento em Bitcoin</span>
+<h1>Seu Bitcoin <em>protegido</em> hoje e acessível à sua família amanhã</h1>
+<p>Treinamento, auto-custódia e planejamento de sucessão para quem quer sair da corretora com segurança e deixar um patrimônio digital que não se perde.</p>
+<div class="actions"><a class="btn" href="https://wa.me/5535999374642?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20EverSats" target="_blank" rel="noopener">Agendar conversa</a><a class="btn ghost" href="#servicos">Conhecer os serviços</a></div>
+<div class="trust"><span>Nunca pedimos sua seed phrase</span><span>Você mantém o controle das chaves</span><span>Atendimento em português</span></div></div>
+<div class="panel"><h3>Checklist de custódia segura</h3><div class="chk">Chaves sob o seu controle</div><div class="chk">Backup da seed testado e bem guardado</div><div class="chk">Multisig quando fizer sentido</div><div class="chk">Plano de acesso para os herdeiros</div></div></div></section>
+<section class="section-padding"><div class="container"><h2>Três riscos que a EverSats ajuda a resolver</h2><p class="lead">Ter Bitcoin é fácil. Guardá-lo com segurança e garantir que ele chegue à sua família exige método.</p><div class="grid"><div class="card"><div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l8 3v6c0 4.5-3.2 8-8 9-4.8-1-8-4.5-8-9V6z"/><path d="M12 8v5M12 16v.5"/></svg></div><h3>Custódia de terceiros</h3><p>Na corretora você tem um saldo, não as chaves. Falhas, bloqueios e quebras já deixaram clientes sem acesso.</p></div><div class="card"><div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="10" width="16" height="10" rx="2"/><path d="M8 10V7a4 4 0 018 0v3"/></svg></div><h3>Perda de acesso</h3><p>Seed phrase mal guardada, hardware wallet sem backup ou senha esquecida podem tornar o Bitcoin irrecuperável.</p></div><div class="card"><div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v16M5 11l7-7 7 7"/></svg></div><h3>Herdeiros sem acesso</h3><p>Se só você sabe acessar, o patrimônio pode ficar preso para sempre quando você não puder mais fazê-lo.</p></div></div></div></section>
+<section id="servicos" class="section-padding bg-light"><div class="container"><h2>Nossos serviços</h2><p class="lead">Do primeiro passo ao plano de sucessão, em uma jornada clara.</p><div class="grid"><div class="service-card"><div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7l9-4 9 4-9 4-9-4z"/><path d="M7 10v5c0 1.5 2.2 3 5 3s5-1.5 5-3v-5"/></svg></div><h3>Treinamento em Bitcoin</h3><p>Entenda como o Bitcoin funciona e aprenda a comprar, guardar e transacionar com segurança.</p><a class="more" href="treinamento.html">Saiba mais →</a></div><div class="service-card"><div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="8" cy="15" r="4"/><path d="M11 12l9-9M16 7l3 3"/></svg></div><h3>Consultoria em Auto-Custódia</h3><p>Carteiras de hardware, multisig e backups para você ter o controle real das suas chaves.</p><a class="more" href="consultoria.html">Saiba mais →</a></div><div class="service-card"><div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8" r="3"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><circle cx="17" cy="9" r="2.4"/><path d="M17 14c2.5 0 4 2 4 5"/></svg></div><h3>Sucessão Patrimonial</h3><p>Um plano para que seus herdeiros consigam acessar o Bitcoin com segurança, quando for preciso.</p><a class="more" href="plano-sucessao.html">Saiba mais →</a></div><div class="service-card"><div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 8h6M9 12h6M9 16h3"/></svg></div><h3>Orientação Fiscal<span class="soon">em breve</span></h3><p>Organização e declaração correta dos seus bitcoins.</p><a class="more" href="https://wa.me/5535999374642?text=Quero%20ser%20avisado%20sobre%20o%20servi%C3%A7o%20de%20orienta%C3%A7%C3%A3o%20fiscal" target=_blank rel=noopener>Avise-me quando lançar →</a></div></div></div></section>
+<section id="como-funciona" class="section-padding"><div class="container"><h2>Como trabalhamos</h2><p class="lead">Um processo simples, transparente e sempre com você no controle.</p><div class="grid"><div class="card"><div class="num">01</div><h3>Conversa de diagnóstico</h3><p>Entendemos seu cenário, seu nível de experiência e seus objetivos.</p></div><div class="card"><div class="num">02</div><h3>Plano sob medida</h3><p>Definimos as ferramentas e o passo a passo mais adequados ao seu caso.</p></div><div class="card"><div class="num">03</div><h3>Implementação acompanhada</h3><p>Configuramos juntos. Você opera e nós orientamos, sem jamais ter acesso às suas chaves.</p></div><div class="card"><div class="num">04</div><h3>Revisão e sucessão</h3><p>Testamos a recuperação e documentamos o plano de acesso para a sua família.</p></div></div></div></section>
+<section id="sobre" class="section-padding bg-light"><div class="container"><h2>Quem está por trás da EverSats</h2><p class="lead">Educação independente, em linguagem clara e sem promessas de ganho.</p>
+<div class="founder"><div class="avatar">ML</div><div><strong>Marcelo Lamoglia</strong><p>Fundador. Mais de 18 anos de experiência em tecnologia e negócios. A EverSats nasceu para tornar a auto-custódia simples, segura e transmissível a quem vem depois de você.</p></div></div></div></section>
+<section id="contato" class="section-padding"><div class="container"><h2>Fale com a EverSats</h2><p class="lead">Conte rapidamente o que você precisa. Respondemos o mais breve possível.</p>
+<div class="formbox"><form id="f" action="https://formspree.io/f/mkgnblzw" method="POST">
+<input type="text" name="nome" placeholder="Seu nome" aria-label="Seu nome" autocomplete="name" required>
+<input type="email" name="email" placeholder="Seu e-mail" aria-label="Seu e-mail" autocomplete="email" required>
+<input type="tel" name="telefone" placeholder="Telefone / WhatsApp (opcional)" aria-label="Telefone ou WhatsApp (opcional)" autocomplete="tel">
+<textarea name="mensagem" rows="4" placeholder="Como podemos ajudar?" aria-label="Sua mensagem" required></textarea>
+<p class="note"><strong>Atenção:</strong> nunca envie sua seed phrase, chaves privadas ou senhas. A EverSats jamais pede essas informações.</p>
+<label class="consent"><input type="checkbox" name="consentimento" required><span>Concordo com o uso dos meus dados para retorno deste contato, conforme a <a href="privacidade.html">Política de Privacidade</a>.</span></label>
+<input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off"><input type="hidden" name="_subject" value="Novo contato pelo site EverSats">
+<p><button class="btn" type="submit">Enviar mensagem</button></p><p id="fs" role="status" aria-live="polite"></p></form></div>
+<p>Prefere falar direto? <a class="more" href="https://wa.me/5535999374642?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20EverSats" target="_blank" rel="noopener">Chame no WhatsApp →</a></p></div></section>
+<script>(function(){var f=document.getElementById('f'),s=document.getElementById('fs');f.addEventListener('submit',function(e){e.preventDefault();s.textContent='Enviando...';fetch(f.action,{method:'POST',body:new FormData(f),headers:{'Accept':'application/json'}}).then(function(r){if(r.ok){f.reset();s.textContent='Mensagem enviada! Responderemos em breve.';if(typeof gtag==='function')gtag('event','generate_lead',{method:'formulario'});}else{s.textContent='Não foi possível enviar. Tente pelo WhatsApp.';}}).catch(function(){s.textContent='Erro de conexão. Tente pelo WhatsApp.';});});})();</script>
+<footer><div class="container">
+<p>&copy; <span id="ano">2026</span> EverSats. Todos os direitos reservados. · <a href="privacidade.html">Política de Privacidade</a></p>
+<p class="fine">Conteúdo educacional. Não constitui recomendação de investimento, nem aconselhamento financeiro, jurídico ou tributário. A EverSats nunca solicita sua seed phrase, chaves privadas ou senhas.</p>
+</div></footer>
+<a class="wf" href="https://wa.me/5535999374642?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20EverSats" target="_blank" rel="noopener" aria-label="Falar pelo WhatsApp">WhatsApp</a>
+<script>document.getElementById('ano').textContent=new Date().getFullYear();</script>
+</body></html>
